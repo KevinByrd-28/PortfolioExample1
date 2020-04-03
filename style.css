@@ -1,0 +1,39 @@
+
+html { 
+    background: url("background2.jpg") no-repeat center center fixed; 
+    background-size: cover;
+    
+  }
+Body{
+    background-color: none;
+    
+}
+
+p {
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+
+#intropara {
+    text-align: left;
+    color: whitesmoke;
+    font-size: 25px;
+    margin: auto;
+    margin-left: 15%;
+    width: 40%;
+    
+
+}
+.portraitMe {
+    width:300px;
+    height:300px;
+    border-radius: 50%;
+    filter: grayscale(25%);
+    background: whitesmoke;
+    padding:5px;
+    border:1px solid grey;
+    margin-top: -150px;
+    margin-left: 60%
+
+}
