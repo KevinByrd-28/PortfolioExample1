@@ -9,9 +9,17 @@ Body{
     
 }
 
+h1 {
+color: whitesmoke;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+}
+
 p {
     margin-top: 10%;
     margin-left: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: bold;
 }
 
 
@@ -35,5 +43,48 @@ p {
     border:1px solid grey;
     margin-top: -150px;
     margin-left: 60%
+
+}
+
+.flexLinksOuter {
+    margin:auto;
+    width: 80%;
+    height: 300px;
+    background-color: rgba(245, 245, 245, 0.377);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.innerbox {
+    opacity: ;
+
+}
+
+
+.fleximages {
+    opacity: 100%;
+    width: 200px;
+    
+}
+.fleximages:hover {
+    cursor:pointer;
+
+}
+
+a {
+target-name:new;
+target-new:window;
+}
+
+footer {
+    background-color: rgba(245, 245, 245, 0.377);
+    width; 100%;
+    height: 35px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
 
 }
